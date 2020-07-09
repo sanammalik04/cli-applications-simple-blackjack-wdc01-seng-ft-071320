@@ -33,6 +33,7 @@ def hit?(number)
   prompt_user
   user_input = get_user_input
   while user_input != "h" and user_input !="s"
+  prompt_user
   invalid_command
   user_input = get_user_input
 end
@@ -44,7 +45,6 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
-  prompt_user
 end
 
 #####################################################
