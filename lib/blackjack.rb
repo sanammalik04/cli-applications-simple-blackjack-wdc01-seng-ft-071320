@@ -27,7 +27,9 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
+  card1 = deal_card
+  card2 = deal_card
+  display_card_total(card1+card2)
 end
 
 def invalid_command
