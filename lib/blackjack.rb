@@ -38,6 +38,7 @@ def hit?(number)
 end
   if user_input == "h" then
     number += deal_card
+  end
   return number
 end
 
